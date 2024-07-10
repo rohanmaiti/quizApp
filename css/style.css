@@ -1,0 +1,68 @@
+
+#heading01 {
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  #start {
+    display: block;
+    margin: auto;
+    background-color: aquamarine;
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+  }
+  #unmark:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s;
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+  }
+  #start:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s;
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+  }
+  #nextQuestion:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s;
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+  }
+
+  .offAtStart {
+    display: none;
+  }
+  .option {
+    display: none;
+  }
+  #nextQuestion {
+    background-color: rgb(146, 255, 255);
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    border: 1px solid rgb(48, 48, 48);
+  }
+  #unmark {
+    background-color: rgb(146, 255, 255);
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    top: -8px;
+    left: 110px;
+    border: 1px solid rgb(48, 48, 48);
+  }
+  .marks {
+    display: block;
+    margin: auto;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(43, 207, 49);
+  }
